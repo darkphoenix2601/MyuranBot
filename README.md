@@ -1,8 +1,8 @@
-# Pyrogram and Telethon String Session Bot [@StarkStringGenBot](https://t.me/StarkStringGenBot)
+# Pyrogram and Telethon String Session Bot [@Myuran_Bot](https://t.me/Myuran_Bot)
 
-> A star ⭐ from you means a lot to us!
+> A star ⭐ from you means a lot to me!
 
-<p align="center"><a href="https://www.github.com/StarkBotsIndustries/StringSessionBot"><img src="https://telegra.ph/file/7ec22c82f580a334dd13e.jpg" width="2000"></a></p>
+<p align="center"><a href="https://www.github.com/Void-Great-Emperor/Myuran"><img src="https://telegra.ph/file/7d5e607419969a1f88d12.jpg" width="2000"></a></p>
 
 Telegram bot to generate pyrogram and telethon string session.
 
