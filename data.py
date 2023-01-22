@@ -1,62 +1,101 @@
 from pyrogram.types import InlineKeyboardButton
 
-
 class Data:
-    generate_single_button = [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")]
 
-    home_buttons = [
-        generate_single_button,
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]
-    ]
-
-    generate_button = [generate_single_button]
-
-    buttons = [
-        generate_single_button,
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
-        [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
-        ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-    ]
+    # Start Message
 
     START = """
-Hey {}
+
+Hello {}
 
 Welcome to {}
 
-If you don't trust this bot, 
-1) stop reading this message
-2) delete this chat
+If you don't trust this bot,
 
-Still reading?
-You can use me to generate pyrogram (even version 2) and telethon string session. Use below buttons to learn more !
+1) don't read this message
 
-By @StarkBots
+2) block bot or delete chat
+
+This Bot Works To Help You Get Session String Via Bot. Recommendations If You Want To Take String Use Another Account, So As Not To Delay. Thank you
+
+By @Professer_Ashu
+
     """
+
+    # Home Button
+
+    home_buttons = [
+
+        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
+
+        [InlineKeyboardButton(text="🏠 Home 🏠", callback_data="home")]
+
+    ]
+
+    generate_button = [
+
+        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")]
+
+    ]
+
+    # Rest Buttons
+
+    buttons = [
+
+        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
+
+        [InlineKeyboardButton("✨ Maintaned By ✨", url="https://t.me/Professer_Ashu")],
+
+        [
+
+            InlineKeyboardButton("How to use me❔", callback_data="help"),
+
+            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+
+        ],
+
+        [InlineKeyboardButton("♥ Other bot info ♥", url="https://t.me/KTG_UPDATES")],
+
+    ]
+
+    # Help Message
 
     HELP = """
+
 ✨ **Available Commands** ✨
 
-/about - About The Bot
-/help - This Message
-/start - Start the Bot
-/generate - Generate Session
-/cancel - Cancel the process
-/restart - Cancel the process
+/about - About this bot
+
+/help - How to use this bot
+
+/start - Start Bot
+
+/generate - Start Generating Session
+
+/cancel - Cancel process
+
+/restart - Restart process
+
 """
 
+    # About Message
+
     ABOUT = """
+
 **About This Bot** 
 
-Telegram Bot to generate Pyrogram and Telethon string session by @StarkBots
+A telegram bot to retrieve pyrograms and telethon string sessions by @Miss_AkshiV1_Updates
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/StringSessionBot)
+About Developer : [About Dev.](https://t.me/Professer_Ashu)
 
-Framework : [Pyrogram](https://docs.pyrogram.org)
+Framework : [Pyrogram](docs.pyrogram.org)
 
-Language : [Python](https://www.python.org)
+Language : [Python](www.python.org)
 
-Developer : @StarkProgrammer
+Developer : @Professer_Ashu
+
     """
+
+
+
+
