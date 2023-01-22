@@ -18,7 +18,7 @@ If you don't trust this bot,
 
 This Bot Works To Help You Get Session String Via Bot. Recommendations If You Want To Take String Use Another Account, So As Not To Delay. Thank you
 
-By @Professer_Ashu
+By @Professor_Ashu
 
     """
 
@@ -44,7 +44,7 @@ By @Professer_Ashu
 
         [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
 
-        [InlineKeyboardButton("✨ Maintaned By ✨", url="https://t.me/Professer_Ashu")],
+        [InlineKeyboardButton("✨ Maintaned By ✨", url="https://t.me/Professor_Ashu")],
 
         [
 
@@ -92,7 +92,7 @@ Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @Professer_Ashu
+Developer : @Professor_Ashu
 
     """
 
